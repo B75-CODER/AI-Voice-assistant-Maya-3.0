@@ -1,0 +1,100 @@
+{
+    "intents":[
+        {
+            "tag":"greets",
+            "patterns":["hello","hii","hey","hi"
+            ],
+            "responses":["Hello Sir :)",
+                "Hey, I Was Really Waiting For Your Presence.",
+                "Hey, I Was Literally Waiting For Your Presence.",
+                "Hey, I Was Waiting For Your Presence.",
+                "Hey, I Was Waiting For You.",
+                "Hello, I Was Waiting For You.",
+                "Hello Sir. Nice Meeting You Again.",
+                "Hello Sir. Nice To Meet You.",
+                "Hello.",
+                "Hey What's Up Sir iam your voice assistant Maya."
+            ]
+        }, 
+        { 
+            "tag":"introduction",
+            "patterns":["introduction","intro","Give introduction","invent you?","developer"
+            ],
+            "responses":["hi sir,iam your voice assistant Maya. i was developed by B75 team."
+        
+            ]
+        }, 
+        {
+            "tag":"filtered",
+            "patterns":["boyfriend","single","love"
+            ],
+            "responses":["sorry sir,iam connected with wifi.",
+            "I'm sorry, I don't have a boyfriend.",
+            "I'm sorry, I don't understand the question. Are you asking if I have a boyfriend? If so, the answer is no."
+        
+            ]
+        },
+     
+    {
+        "tag":"halkhabar",
+        "patterns":["how are you?"
+        ],
+        "responses":["iam fine sir and what about you?.",
+        "Good, thanks, and you"
+    
+        ]
+    },
+
+   {
+    "tag":"",
+    "patterns":["iam also fine","good","great"
+    ],
+    "responses":["ok sir i wish you will also fine, How may i help you sir."
+
+    ]
+    },
+    {
+        "tag":"moon and sun",
+        "patterns":["Distance between sun moon"
+        ],
+        "responses":["The average distance between the Sun and the Moon is about 238,855 miles (384,400 kilometers)."
+        ]
+    },
+    {
+        "tag":"football",
+        "patterns":["messi?","footballer messi"
+        ],
+        "responses":["Lionel Messi is an Argentine professional soccer player who currently plays for FC Barcelona and the Argentine national team. He is widely regarded as one of the greatest soccer players of all time."
+        ]
+    },
+    {
+        "tag":"name",
+        "patterns":["your name?","your introduction"
+        ],
+        "responses":["iam maya developed by b75 team.iam 21 year old."
+        ]
+    },
+    {
+        "tag":"who is current mayor of kathmandu?",
+        "patterns":["mayor of kathmandu??"
+        ],
+        "responses":["The current mayor is Balendra Shah, who was elected in the 2022 election and took office on 30 May 2022. The position has been held by fifteen people in a permanent capacity since its creation."
+        ]
+    },
+    {
+        "tag":"basu",
+        "patterns":["basu college??"
+        ],
+        "responses":["Basu Higher Secondary School is a leading public school in Bhaktapur. It was established with primary level classes in 2019 BS. The first batch of students appeared SLC in 2044 BS with merely six students. In 2067 SLC, a contingent of 137 students appeared in SLC examinations from this school."
+        ]
+    },
+    {
+        "tag":"princi",
+        "patterns":["principle basu college"
+        ],
+        "responses":["Amvika Nyaichyai is principle of basu college.if you need more information about basu college you can vist www.basu.edu.np"
+        ]
+    }
+   
+    ]
+}
