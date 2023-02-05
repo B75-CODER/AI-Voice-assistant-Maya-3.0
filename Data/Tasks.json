@@ -1,0 +1,25 @@
+{
+    "intents":[
+        {
+            "tag":"open",
+            "patterns":["open","launch","start","vist"
+            ],
+            "responses":["open"
+            ]
+        },
+        {
+            "tag":"send",
+            "patterns":["send","whatsapp","message","send whatsapp"
+            ],
+            "responses":["whatsapp"
+            ]
+        },
+        {
+            "tag":"youtube",
+            "patterns":["youtube","youtube search"
+            ],
+            "responses":["youtube"
+            ]
+        }
+    ]
+}
